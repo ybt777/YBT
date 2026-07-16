@@ -17,9 +17,9 @@ POS_3_X, POS_3_Y = 1765, 1077  # 第三位置
 TIME_STOP_BEFORE_CLICK = 0.1  # 后两次点击移过去后“顿一会”的时间
 
 # --- 【各个步骤的延迟】 ---
-TIME_AFTER_CLICK1 = 0.20  # 点击价格框后的等待时间
-TIME_AFTER_BACK = 0.15   # 按完退格键后的等待时间
-TIME_SERVER_WAIT = 0.55   # 等服务器与游戏响应的时间
+TIME_AFTER_CLICK1 = 0.15  # 点击价格框后的等待时间
+TIME_AFTER_BACK = 0.10   # 按完退格键后的等待时间
+TIME_SERVER_WAIT = 0.35   # 等服务器与游戏响应的时间
 TIME_MOVE_2_TO_3 = 0.1  # 第二点击到第三点击之间的间隔时间  为第二点击后 隔0.2s 执行第三点击移动+点击
 # =============================================================
 
@@ -84,7 +84,7 @@ def on_press(key):
 
 print("==========================================")
 print(" ！")
-print(" 快捷键：【 f4 】开始 / 【alt 】退出")
+print(" 快捷键：【 ctrl 】开始 / 【alt 】退出")
 print("==========================================")
 
 with keyboard.Listener(on_press=on_press) as listener:
