@@ -1,0 +1,10 @@
+.venv/
+project/
+自动售卖/build/
+自动售卖/dist/
+自动售卖/__pycache__/
+自动售卖/action_config.json
+自动售卖/config.json
+*.pyc
+*.pyo
+*.log
