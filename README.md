@@ -16,8 +16,7 @@
 
 - `自动售卖/ui3.0_action_builder.py`：最新版自定义动作编排界面。
 - `自动售卖/ui2.0.py`：旧版三坐标 UI。
-- `自动售卖/autosell_v4.py`：旧版固定售卖流程执行逻辑。
-- `自动售卖/ui_main.py`：早期 UI 文件。
+- `自动售卖/ui3.0_action_builder.spec`：3.0 文件夹模式打包配置。
 
 ## 源码运行
 
